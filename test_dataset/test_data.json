@@ -1,0 +1,22 @@
+[
+    {
+        "user": "Who founded OpenAI in 2015?",
+        "assistant": "Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman"
+    },
+    {
+        "user": "What was the goal of OpenAI's founding?",
+        "assistant": "Advance digital intelligence to benefit humanity"
+    },
+    {
+        "user": "When was 'OpenAI Gym' released?",
+        "assistant": "2016"
+    },
+    {
+        "user": "What project showcased OpenAI's reinforcement learning algorithms in 2018?",
+        "assistant": "'OpenAI Five'"
+    },
+    {
+        "user": "What game did the 'OpenAI Five' project focus on?",
+        "assistant": "'Dota 2'"
+    }
+]
