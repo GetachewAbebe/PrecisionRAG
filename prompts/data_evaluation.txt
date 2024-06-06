@@ -1,0 +1,18 @@
+
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
