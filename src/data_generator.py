@@ -4,9 +4,21 @@ import sys
 from openai import OpenAI
 from math import exp
 import numpy as np
+import logging
+from PyPDF2 import PdfReader
 from main import get_env_manager
 env_manager = get_env_manager()
 client = OpenAI(api_key=env_manager['openai_keys']['OPENAI_API_KEY'])
+
+
+# Set up logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+file_handler = logging.FileHandler('logs/log.log')
+file_handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
 
 def get_completion(
     messages: list[dict[str, str]],
@@ -48,12 +60,35 @@ def get_completion(
     return completion
 
 
-def file_reader(path: str, ) -> str:
-    fname = os.path.join(path)
-    with open(fname, 'r') as f:
-        system_message = f.read()
-    return system_message
-            
+def file_reader(path):
+    """
+    Read the contents of a file.
+    
+    Args:
+        path (str): The path to the file.
+    
+    Returns:
+        str: The content of the file.
+    """
+    try:
+        if path.endswith('.txt'):
+            with open(path, 'r') as f:
+                content = f.read()
+            logger.info(f"File reading successful for {path}")
+        elif path.endswith('.pdf'):
+            content = ""
+            with open(path, 'rb') as f:
+                reader = PdfReader(f)
+                for page in reader.pages:
+                    content += page.extract_text()
+            logger.info(f"PDF reading successful for {path}")
+        else:
+            raise ValueError("Unsupported file format")
+        return content
+    except Exception as e:
+        logger.error(f"Error reading the file: {e}")
+        raise
+
 
 def generate_test_data(prompt: str, context: str, num_test_output: str) -> str:
     """Return the classification of the hallucination.
@@ -76,6 +111,27 @@ def generate_test_data(prompt: str, context: str, num_test_output: str) -> str:
 
     system_msg = API_RESPONSE.choices[0].message.content
     return system_msg
+
+
+def split_text_into_chunks(text, chunk_size=200):
+    """
+    Split text into chunks of a specified size.
+    
+    Args:
+        text (str): The text to split.
+        chunk_size (int): The size of each chunk.
+    
+    Returns:
+        list: A list of text chunks.
+    """
+    try:
+        words = text.split()
+        chunks = [' '.join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
+        logger.info(f"Successfully chunked text into {len(chunks)} chunks.")
+        return chunks
+    except Exception as e:
+        logger.error(f"Error chunking the text: {e}")
+        raise
 
 
 def main(num_test_output: str):
