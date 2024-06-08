@@ -1,5 +1,4 @@
 rag_env/*
 .env
-fabric/*
-src/__pycache__/*
 fabric/
+src/__pycache__/*
