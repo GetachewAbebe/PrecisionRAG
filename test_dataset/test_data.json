@@ -1,22 +1,22 @@
 [
     {
-        "user": "Who founded OpenAI in 2015?",
-        "assistant": "Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman"
+        "user": "Who are the tutors for the challenge?",
+        "assistant": "Yabebal, Emtinan, Rehmet"
     },
     {
-        "user": "What was the goal of OpenAI's founding?",
-        "assistant": "Advance digital intelligence to benefit humanity"
+        "user": "What is the schedule for tutorials?",
+        "assistant": "Monday: Understanding Prompt engineering, Tuesday: RAG components"
     },
     {
-        "user": "When was 'OpenAI Gym' released?",
-        "assistant": "2016"
+        "user": "What are the key performance indicators for the tutorials?",
+        "assistant": "Understanding week's challenge, Understanding the prompt engineering, Ability to reuse previous knowledge"
     },
     {
-        "user": "What project showcased OpenAI's reinforcement learning algorithms in 2018?",
-        "assistant": "'OpenAI Five'"
+        "user": "What are the techniques to improve R in RAG?",
+        "assistant": "Retrievers"
     },
     {
-        "user": "What game did the 'OpenAI Five' project focus on?",
-        "assistant": "'Dota 2'"
+        "user": "What is the goal of the approach in the challenge?",
+        "assistant": "Support and reward expertise in different parts of the Machine learning engineering toolbox"
     }
 ]
