@@ -2,4 +2,3 @@ rag_env/*
 .env
 fabric/
 utils/__pycache__/*
-milvus/
