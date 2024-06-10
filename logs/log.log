@@ -8,3 +8,895 @@
 2024-06-08 09:28:08,588 - data_generator - INFO - File reading successful for prompts/data_generation.txt
 2024-06-08 09:29:57,267 - data_generator - INFO - File reading successful for prompts/context.txt
 2024-06-08 09:29:57,267 - data_generator - INFO - File reading successful for prompts/data_generation.txt
+2024-06-10 03:04:04,847 - __main__ - ERROR - Error in main execution: name 'FileHandler' is not defined
+2024-06-10 03:36:32,030 - __main__ - ERROR - Error reading the file: [Errno 2] No such file or directory: 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-10 03:36:32,030 - __main__ - ERROR - Error in main function: [Errno 2] No such file or directory: 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-10 03:38:21,759 - __main__ - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 03:38:21,759 - __main__ - INFO - File reading successful for prompts/data_generation.txt
+2024-06-10 03:38:21,759 - __main__ - ERROR - Error in generating test data: name 'assistant' is not defined
+2024-06-10 03:38:21,759 - __main__ - ERROR - Error in main function: name 'assistant' is not defined
+2024-06-10 03:41:19,031 - __main__ - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 03:41:19,031 - __main__ - INFO - File reading successful for prompts/data_generation.txt
+2024-06-10 03:41:29,561 - __main__ - INFO - Chat completion successful.
+2024-06-10 03:41:29,561 - __main__ - INFO - Test data generation successful.
+2024-06-10 03:41:29,561 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 03:51:51,986 - __main__ - ERROR - Error in generating test data: name 'HumanMessage' is not defined
+2024-06-10 03:51:51,986 - __main__ - ERROR - Error in main function: name 'HumanMessage' is not defined
+2024-06-10 03:52:33,513 - __main__ - ERROR - Error in chat completion: BaseChatModel.invoke() missing 1 required positional argument: 'input'
+2024-06-10 03:52:33,513 - __main__ - ERROR - Error in generating test data: BaseChatModel.invoke() missing 1 required positional argument: 'input'
+2024-06-10 03:52:33,513 - __main__ - ERROR - Error in main function: BaseChatModel.invoke() missing 1 required positional argument: 'input'
+2024-06-10 03:53:58,898 - __main__ - ERROR - Error reading the file: [Errno 2] No such file or directory: 'prompts/data_generation.txt'
+2024-06-10 03:53:58,899 - __main__ - ERROR - Error in main function: [Errno 2] No such file or directory: 'prompts/data_generation.txt'
+2024-06-10 03:54:44,370 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 04:00:04,631 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 04:03:47,582 - data_generation - ERROR - Error reading the file: [Errno 2] No such file or directory: 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-10 04:03:47,583 - __main__ - ERROR - Error in main execution: [Errno 2] No such file or directory: 'prompts/10 Academy Cohort B - Weekly Challenge_ Week - 7.pdf'
+2024-06-10 04:05:53,412 - precision_rag - ERROR - Error inserting vector: [Errno 2] No such file or directory: 'file.json'
+2024-06-10 04:05:53,412 - __main__ - ERROR - Error in prompt generation: [Errno 2] No such file or directory: 'file.json'
+2024-06-10 04:05:53,412 - __main__ - ERROR - Error in main execution: [Errno 2] No such file or directory: 'file.json'
+2024-06-10 04:07:24,980 - precision_rag - ERROR - Error inserting vector: [Errno 2] No such file or directory: 'test_data.json'
+2024-06-10 04:07:24,980 - __main__ - ERROR - Error in prompt generation: [Errno 2] No such file or directory: 'test_data.json'
+2024-06-10 04:07:24,980 - __main__ - ERROR - Error in main execution: [Errno 2] No such file or directory: 'test_data.json'
+2024-06-10 04:11:00,447 - precision_rag - ERROR - Error inserting vector: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:11:00,447 - __main__ - ERROR - Error in prompt generation: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:11:00,447 - __main__ - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:12:39,076 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 04:12:55,610 - precision_rag - ERROR - Error inserting vector: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:12:55,610 - __main__ - ERROR - Error in prompt generation: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:12:55,610 - __main__ - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:13:22,901 - precision_rag - ERROR - Error inserting vector: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:13:22,901 - __main__ - ERROR - Error in prompt generation: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:13:22,901 - __main__ - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:13:42,925 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 04:14:30,378 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 04:14:57,618 - precision_rag - ERROR - Error inserting vector: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:14:57,619 - __main__ - ERROR - Error in prompt generation: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:14:57,619 - __main__ - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-06-10 04:17:16,316 - precision_rag - INFO - Successfully vectorized the data: {'dimension': 1536,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 10}},
+ 'total_vector_count': 10}
+2024-06-10 04:17:23,397 - __main__ - INFO - Prompt generation successful.
+2024-06-10 04:30:00,637 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 04:31:36,163 - __main__ - ERROR - Error in prompt generation: name 'retrieve' is not defined
+2024-06-10 04:31:36,163 - __main__ - ERROR - Error in main execution: name 'retrieve' is not defined
+2024-06-10 04:32:24,528 - precision_rag - ERROR - Error retrieving prompt: 'num_test_output'
+2024-06-10 04:32:24,528 - __main__ - ERROR - Error in prompt generation: 'num_test_output'
+2024-06-10 04:32:24,529 - __main__ - ERROR - Error in main execution: 'num_test_output'
+2024-06-10 04:34:11,076 - precision_rag - ERROR - Error retrieving prompt: 'num_test_output'
+2024-06-10 04:34:11,076 - __main__ - ERROR - Error in prompt generation: 'num_test_output'
+2024-06-10 04:34:11,077 - __main__ - ERROR - Error in main execution: 'num_test_output'
+2024-06-10 04:35:25,396 - __main__ - INFO - Prompt generation successful.
+2024-06-10 04:55:28,020 - __main__ - ERROR - Error in data evaluation: ScoredVector has no attribute 'metadata' at ['['received_data', 'matches', 1]']['metadata']
+2024-06-10 04:57:44,071 - __main__ - ERROR - Error in data evaluation: ScoredVector has no attribute 'metadata' at ['['received_data', 'matches', 1]']['metadata']
+2024-06-10 04:59:49,488 - __main__ - ERROR - Error in data evaluation: ScoredVector has no attribute 'metadata' at ['['received_data', 'matches', 1]']['metadata']
+2024-06-10 06:48:50,621 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 06:52:05,261 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 06:52:23,629 - __main__ - ERROR - Error in data evaluation: ScoredVector has no attribute 'metadata' at ['['received_data', 'matches', 1]']['metadata']
+2024-06-10 06:58:59,109 - __main__ - ERROR - Error creating Pinecone index: 'NoneType' object has no attribute 'names'
+2024-06-10 06:58:59,109 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'names'
+2024-06-10 07:00:39,571 - __main__ - ERROR - Error creating Pinecone index: 'NoneType' object has no attribute 'names'
+2024-06-10 07:00:39,571 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'names'
+2024-06-10 07:01:04,829 - __main__ - ERROR - Error creating Pinecone index: 'NoneType' object has no attribute 'names'
+2024-06-10 07:01:04,829 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'names'
+2024-06-10 07:03:09,930 - __main__ - ERROR - Error creating Pinecone index: 'NoneType' object has no attribute 'names'
+2024-06-10 07:03:09,931 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'names'
+2024-06-10 07:05:20,352 - __main__ - ERROR - Error creating Pinecone index: 'NoneType' object has no attribute 'names'
+2024-06-10 07:05:20,353 - __main__ - ERROR - Error in main execution: 'NoneType' object has no attribute 'names'
+2024-06-10 07:08:33,913 - __main__ - ERROR - Error creating Pinecone index: 'NoneType' object is not iterable
+2024-06-10 07:08:33,914 - __main__ - ERROR - Error in main execution: 'NoneType' object is not iterable
+2024-06-10 07:09:24,939 - __main__ - ERROR - Failed to retrieve index list from Pinecone.
+2024-06-10 07:09:24,940 - __main__ - ERROR - Error creating Pinecone index: Failed to retrieve index list from Pinecone.
+2024-06-10 07:09:24,940 - __main__ - ERROR - Error in main execution: Failed to retrieve index list from Pinecone.
+2024-06-10 07:10:28,093 - __main__ - ERROR - Failed to retrieve index list data from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:10:28,093 - __main__ - ERROR - Error creating Pinecone index: Failed to retrieve index list data from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:10:28,094 - __main__ - ERROR - Error in main execution: Failed to retrieve index list data from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:12:20,731 - __main__ - ERROR - Error creating Pinecone index: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '92d3aca753fa321c872fc19077f5b671', 'Date': 'Mon, 10 Jun 2024 04:12:20 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:12:20,731 - __main__ - ERROR - Error in main execution: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '92d3aca753fa321c872fc19077f5b671', 'Date': 'Mon, 10 Jun 2024 04:12:20 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:13:51,067 - __main__ - ERROR - Error creating Pinecone index: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '7d6bc8ae04a8752c9c4c200a3b3c4e97', 'Date': 'Mon, 10 Jun 2024 04:13:50 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:13:51,067 - __main__ - ERROR - Error in main execution: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '7d6bc8ae04a8752c9c4c200a3b3c4e97', 'Date': 'Mon, 10 Jun 2024 04:13:50 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:14:27,979 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 07:24:42,051 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 07:26:42,634 - __main__ - ERROR - Error creating Pinecone index: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '3a4e946ec15916117aa42de7c0aa25f6', 'Date': 'Mon, 10 Jun 2024 04:26:42 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:26:42,635 - __main__ - ERROR - Error in main execution: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '3a4e946ec15916117aa42de7c0aa25f6', 'Date': 'Mon, 10 Jun 2024 04:26:42 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:27:52,207 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 07:34:08,231 - __main__ - ERROR - Error creating Pinecone index: Pinecone.__init__() missing 1 required positional argument: 'text_key'
+2024-06-10 07:34:08,231 - __main__ - ERROR - Error in main execution: Pinecone.__init__() missing 1 required positional argument: 'text_key'
+2024-06-10 07:38:10,455 - __main__ - ERROR - Error creating Pinecone index: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '45d2fb51f1557278d841938a43847291', 'Date': 'Mon, 10 Jun 2024 04:38:10 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:38:10,455 - __main__ - ERROR - Error in main execution: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '45d2fb51f1557278d841938a43847291', 'Date': 'Mon, 10 Jun 2024 04:38:10 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:38:53,055 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 07:43:04,634 - __main__ - ERROR - Error creating Pinecone index: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '73f3877fe556ffc7d093fd49a61e41b6', 'Date': 'Mon, 10 Jun 2024 04:43:04 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:43:04,634 - __main__ - ERROR - Error in main execution: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'X-Cloud-Trace-Context': '73f3877fe556ffc7d093fd49a61e41b6', 'Date': 'Mon, 10 Jun 2024 04:43:04 GMT', 'Content-Type': 'text/html', 'Server': 'Google Frontend', 'Content-Length': '15', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: Invalid API Key
+
+2024-06-10 07:44:31,452 - __main__ - ERROR - Failed to retrieve index list from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:44:31,453 - __main__ - ERROR - Error creating Pinecone index: Failed to retrieve index list from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:44:31,453 - __main__ - ERROR - Error in main execution: Failed to retrieve index list from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:47:15,545 - __main__ - INFO - Pinecone client initialized successfully.
+2024-06-10 07:47:17,409 - __main__ - INFO - Index list retrieved: {'indexes': []}
+2024-06-10 07:47:17,409 - __main__ - ERROR - Failed to retrieve index list from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:47:17,410 - __main__ - ERROR - Error creating Pinecone index: Failed to retrieve index list from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:47:17,410 - __main__ - ERROR - Error in main execution: Failed to retrieve index list from Pinecone. Please check your API key, network connection, and Pinecone account.
+2024-06-10 07:48:38,274 - __main__ - INFO - Pinecone client initialized successfully.
+2024-06-10 07:48:40,262 - __main__ - INFO - Index list retrieved: {'indexes': [{'dimension': 1536,
+              'host': 'pricisionrag-bz0yba8.svc.aped-4627-b74a.pinecone.io',
+              'metric': 'cosine',
+              'name': 'pricisionrag',
+              'spec': {'serverless': {'cloud': 'aws', 'region': 'us-east-1'}},
+              'status': {'ready': True, 'state': 'Ready'}}]}
+2024-06-10 07:48:40,262 - __main__ - INFO - Pinecone index 'pricisionrag' already exists.
+2024-06-10 07:48:40,265 - __main__ - ERROR - Error in prompt generation: 'Pinecone' object has no attribute 'similarity_search'
+2024-06-10 07:48:40,265 - __main__ - ERROR - Error in main execution: 'Pinecone' object has no attribute 'similarity_search'
+2024-06-10 07:50:05,451 - __main__ - INFO - Pinecone client initialized successfully.
+2024-06-10 07:50:07,829 - __main__ - INFO - Index list retrieved: {'indexes': [{'dimension': 1536,
+              'host': 'pricisionrag-bz0yba8.svc.aped-4627-b74a.pinecone.io',
+              'metric': 'cosine',
+              'name': 'pricisionrag',
+              'spec': {'serverless': {'cloud': 'aws', 'region': 'us-east-1'}},
+              'status': {'ready': True, 'state': 'Ready'}}]}
+2024-06-10 07:50:09,670 - __main__ - ERROR - Error creating Pinecone index: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'x-pinecone-api-version': '2024-04', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'X-Cloud-Trace-Context': '8aa747e87ccb00499fd85450ff810be6', 'Date': 'Mon, 10 Jun 2024 04:50:09 GMT', 'Server': 'Google Frontend', 'Content-Length': '85', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"ALREADY_EXISTS","message":"Resource  already exists"},"status":409}
+
+2024-06-10 07:50:09,670 - __main__ - ERROR - Error in main execution: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'x-pinecone-api-version': '2024-04', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'X-Cloud-Trace-Context': '8aa747e87ccb00499fd85450ff810be6', 'Date': 'Mon, 10 Jun 2024 04:50:09 GMT', 'Server': 'Google Frontend', 'Content-Length': '85', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"ALREADY_EXISTS","message":"Resource  already exists"},"status":409}
+
+2024-06-10 07:51:13,593 - __main__ - INFO - Pinecone client initialized successfully.
+2024-06-10 07:51:16,030 - __main__ - INFO - Index list retrieved: {'indexes': [{'dimension': 1536,
+              'host': 'pricisionrag-bz0yba8.svc.aped-4627-b74a.pinecone.io',
+              'metric': 'cosine',
+              'name': 'pricisionrag',
+              'spec': {'serverless': {'cloud': 'aws', 'region': 'us-east-1'}},
+              'status': {'ready': True, 'state': 'Ready'}}]}
+2024-06-10 07:51:17,255 - __main__ - ERROR - Error creating Pinecone index: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'x-pinecone-api-version': '2024-04', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'X-Cloud-Trace-Context': 'cdbc7a9f873f3c9ff0944e999defdf4a', 'Date': 'Mon, 10 Jun 2024 04:51:16 GMT', 'Server': 'Google Frontend', 'Content-Length': '85', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"ALREADY_EXISTS","message":"Resource  already exists"},"status":409}
+
+2024-06-10 07:51:17,255 - __main__ - ERROR - Error in main execution: (409)
+Reason: Conflict
+HTTP response headers: HTTPHeaderDict({'content-type': 'text/plain; charset=utf-8', 'x-pinecone-api-version': '2024-04', 'access-control-allow-origin': '*', 'vary': 'origin,access-control-request-method,access-control-request-headers', 'access-control-expose-headers': '*', 'X-Cloud-Trace-Context': 'cdbc7a9f873f3c9ff0944e999defdf4a', 'Date': 'Mon, 10 Jun 2024 04:51:16 GMT', 'Server': 'Google Frontend', 'Content-Length': '85', 'Via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'})
+HTTP response body: {"error":{"code":"ALREADY_EXISTS","message":"Resource  already exists"},"status":409}
+
+2024-06-10 07:52:29,639 - __main__ - INFO - Pinecone client initialized successfully.
+2024-06-10 07:52:32,525 - __main__ - INFO - Index list retrieved: {'indexes': [{'dimension': 1536,
+              'host': 'pricisionrag-bz0yba8.svc.aped-4627-b74a.pinecone.io',
+              'metric': 'cosine',
+              'name': 'pricisionrag',
+              'spec': {'serverless': {'cloud': 'aws', 'region': 'us-east-1'}},
+              'status': {'ready': True, 'state': 'Ready'}}]}
+2024-06-10 07:52:34,058 - __main__ - ERROR - Error in main execution: name 'pinecone' is not defined
+2024-06-10 07:53:41,642 - __main__ - INFO - Pinecone client initialized successfully.
+2024-06-10 07:53:44,111 - __main__ - INFO - Index list retrieved: {'indexes': [{'dimension': 1536,
+              'host': 'pricisionrag-bz0yba8.svc.aped-4627-b74a.pinecone.io',
+              'metric': 'cosine',
+              'name': 'pricisionrag',
+              'spec': {'serverless': {'cloud': 'aws', 'region': 'us-east-1'}},
+              'status': {'ready': True, 'state': 'Ready'}}]}
+2024-06-10 07:53:46,271 - __main__ - INFO - Pinecone index 'pricisionrag' already exists.
+2024-06-10 07:53:58,869 - __main__ - INFO - Prompt generation successful.
+2024-06-10 07:54:45,289 - __main__ - INFO - Prompt generation successful.
+2024-06-10 07:55:34,451 - __main__ - INFO - Prompt generation successful.
+2024-06-10 07:56:53,107 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 08:04:46,426 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:04:49,179 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:04:52,251 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:04:54,655 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:04:57,243 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:04:57,244 - __main__ - INFO - Data evaluation and filtering successful.
+2024-06-10 08:14:39,338 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 08:15:21,110 - __main__ - INFO - Prompt generation successful.
+2024-06-10 08:15:54,256 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:15:56,704 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:15:59,160 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:01,312 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:03,462 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:06,226 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:08,801 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:11,449 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:13,906 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:16,058 - __main__ - INFO - Model confidence for message '
+Before even answering the question, consider whether you have sufficient 
+information in the context to answer the question fully.
+
+Your output should JUST be the boolean true if you have 
+sufficient information in the context to answer the question and false otherwise.
+Respond with just one word, the boolean true or false. You must output 
+the word 'true', or the word 'false', nothing else.
+
+You retrieved this context
+
+Context: 
+{Context}
+
+User question is
+
+Question: 
+{Question}
+' is 'false'.
+2024-06-10 08:16:16,059 - __main__ - INFO - Data evaluation and filtering successful.
+2024-06-10 08:50:35,773 - utils.precision_rag - ERROR - Error retrieving prompt: 'str' object has no attribute 'page_content'
+2024-06-10 08:50:35,773 - utils.precision_rag - ERROR - Error retrieving prompt: 'str' object has no attribute 'page_content'
+2024-06-10 08:52:24,457 - utils.precision_rag - ERROR - Error retrieving prompt: 'str' object has no attribute 'page_content'
+2024-06-10 08:52:24,457 - utils.precision_rag - ERROR - Error retrieving prompt: 'str' object has no attribute 'page_content'
+2024-06-10 08:52:24,457 - utils.precision_rag - ERROR - Error retrieving prompt: 'str' object has no attribute 'page_content'
+2024-06-10 09:13:02,124 - __main__ - ERROR - Error in main function: generate_test_data() got an unexpected keyword argument 'assistant'
+2024-06-10 09:51:08,988 - __main__ - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 09:51:08,988 - __main__ - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 09:51:08,988 - __main__ - ERROR - Error in main function: generate_test_data() missing 1 required positional argument: 'assistant'
+2024-06-10 09:54:36,353 - __main__ - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 09:54:36,353 - __main__ - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 09:54:47,182 - __main__ - INFO - Chat completion successful.
+2024-06-10 09:54:47,182 - __main__ - INFO - Test data generation successful.
+2024-06-10 09:54:47,182 - __main__ - ERROR - Error in main function: Unterminated string starting at: line 40 column 9 (char 2681)
+2024-06-10 09:56:38,807 - __main__ - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 09:56:38,807 - __main__ - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 09:56:49,427 - __main__ - INFO - Chat completion successful.
+2024-06-10 09:56:49,427 - __main__ - INFO - Test data generation successful.
+2024-06-10 09:56:49,428 - __main__ - INFO - JSON data has been saved successfully.
+2024-06-10 10:15:12,202 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:15:12,202 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:15:12,202 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:15:12,202 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:15:12,202 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:19:02,908 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:19:02,908 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:19:02,908 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:19:02,908 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:19:02,908 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:19:02,908 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:20:15,282 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,803 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:47,805 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,680 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,682 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:42:54,684 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,757 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:12,759 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,621 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,627 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:43:18,638 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,826 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:52,829 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,019 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,026 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:44:59,036 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,964 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:12,966 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,592 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,598 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:45:19,606 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:48:05,923 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:48:05,924 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:48:13,211 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:48:13,212 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:48:13,213 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:48:35,959 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:48:35,959 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:48:35,959 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:48:35,959 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:48:43,555 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:48:43,555 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:48:43,555 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:48:43,555 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:48:43,557 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:48:43,557 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:49:00,740 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:49:00,740 - utils.data_generator - INFO - PDF reading successful for data/10_Academy_Week_7_Challenge_Document.pdf
+2024-06-10 10:49:00,741 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:49:00,741 - utils.data_generator - INFO - File reading successful for prompts/data_generator.txt
+2024-06-10 10:49:06,795 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:49:06,795 - utils.data_generator - INFO - Chat completion successful.
+2024-06-10 10:49:06,795 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:49:06,795 - utils.data_generator - INFO - Test data generation successful.
+2024-06-10 10:49:06,796 - utils.data_generator - INFO - JSON data has been saved successfully.
+2024-06-10 10:49:06,796 - utils.data_generator - INFO - JSON data has been saved successfully.
