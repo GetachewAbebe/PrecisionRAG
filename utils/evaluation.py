@@ -1,10 +1,11 @@
+
 import os
 import sys
 import json
 sys.path.insert(0, '/home/getachew/Documents/10_Academy/Week_7/PrecisionRAG')
 from openai import OpenAI
-from utils.data_generator import get_completion,file_reader
-# from data_generation._data_generation import file_reader
+from utils.data_generation import get_completion
+from utils.data_generation import file_reader
 from dotenv import find_dotenv, load_dotenv
 import numpy as np
 
@@ -13,7 +14,7 @@ load_dotenv(env_file_path)
 openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
-def evaluate(prompt: str, questions: str, context: str) -> str:
+def evaluate(prompt: str, user_message: str, context: str) -> str:
     """Return the classification of the hallucination.
     @parameter prompt: the prompt to be completed.
     @parameter user_message: the user message to be classified.
@@ -25,7 +26,7 @@ def evaluate(prompt: str, questions: str, context: str) -> str:
         [
             {
                 "role": "system", 
-                "content": prompt.replace("{Context}", context).replace("{Question}", questions)
+                "content": prompt.replace("{Context}", context).replace("{Question}", user_message)
             }
         ],
         model="gpt-3.5-turbo",
@@ -49,9 +50,9 @@ def evaluate(prompt: str, questions: str, context: str) -> str:
     return result
 
 
-if __name__ == "__main__":
+def main1():
     context_message = file_reader("prompts/context.txt")
-    prompt_message = file_reader("prompts/data_evaluation.txt")
+    prompt_message = file_reader("prompts/generic-evaluation-prompt.txt")
     context = str(context_message)
     prompt = str(prompt_message)
     
@@ -64,21 +65,23 @@ if __name__ == "__main__":
     # Specify the file path relative to the base directory
     file_path = os.path.join(base_dir, "test_dataset/test_data.json")
     
-    # Read the generated prompts file
     with open(file_path, 'r') as f:
         prompts = json.load(f)
 
-    # Extract the questions from the prompts
-    # questions = [prompts['prompt'] for prompt in prompts]
     questions = [item["user"] for item in prompts]
 
     print(prompts)
     print()
-    
+    accuracies = []
+
     # Evaluate each question
     for question in questions:
-            print(evaluate(prompt, question, context))
-    
-       
+        result = evaluate(prompt, question, context)
+        accuracy = result['accuracy']  # Extract the accuracy
+        accuracies.append(accuracy)  # Append the accuracy to the list
+
+    return accuracies  # Return the list of accuracies
+
+
 # if __name__ == "__main__":
-#     main()
+#     main1()
